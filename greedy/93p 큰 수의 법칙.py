@@ -1,4 +1,4 @@
-'''
+
 n, m, k = map(int, input().split())
 data = list(map(int, input().split()))
 data.sort()
@@ -21,8 +21,8 @@ while True:
     count += 1
 
 print(sum)
-'''
 
+'''
 # 반복되는 수열을 사용한 풀이
 # k+ 1의 수열이 반복됨
 
@@ -38,3 +38,4 @@ sum += data[-1] * (count*k + remain)
 sum += count * data[-2]
 
 print(sum)
+'''
