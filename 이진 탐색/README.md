@@ -15,6 +15,6 @@
     ```
     import sys
     
-    input_data = sys.stdin.readline().()
+    input_data = sys.stdin.readline().split()
     print(input_data)
     ```
